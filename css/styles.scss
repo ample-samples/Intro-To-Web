@@ -3,7 +3,7 @@
 @use "components" as *;
 
 body {
-	padding: 40px 30px;
+	margin: 0;
 	color: $color-primary;
 
 	.text-xl {
@@ -23,6 +23,7 @@ body {
 	}
 
 	header {
+		padding: 20px 30px;
 		.logo {
 			width: 8em;
 		}
@@ -42,6 +43,7 @@ body {
 	}
 
 	main {
+	padding: 40px 30px;
 		justify-items: center;
 		display: flex;
 		flex-direction: column;
@@ -59,13 +61,18 @@ body {
 
 	footer {
 		display: flex;
+		height: 200px;
 		justify-content: center;
 		flex-direction: column;
+		justify-content: space-around;
+		background-color: $color-background;
+		padding: 20px 0px;
 
 		a {
 			margin: 0 auto;
 			display: inline-block;
 			font-size: $text-size-md;
+			font-weight: bold;
 			color: $color-primary;
 			text-decoration: none;
 

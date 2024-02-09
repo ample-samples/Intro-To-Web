@@ -50,12 +50,12 @@ main .usp img {
   color: #394166;
   padding: 20px 40px;
   border: 2px solid #394166;
-  border-radius: 5px;
+  border-radius: 10px;
   text-decoration: none;
 }
 
 body {
-  padding: 40px 30px;
+  margin: 0;
   color: #394166;
 }
 body .text-xl {
@@ -69,6 +69,9 @@ body .text-md {
 }
 body .text-sm {
   font-size: 28px;
+}
+body header {
+  padding: 20px 30px;
 }
 body header .logo {
   width: 8em;
@@ -85,6 +88,7 @@ body header .login {
   font-weight: bold;
 }
 body main {
+  padding: 40px 30px;
   justify-items: center;
   display: flex;
   flex-direction: column;
@@ -99,13 +103,18 @@ body main .color-secondary {
 }
 body footer {
   display: flex;
+  height: 200px;
   justify-content: center;
   flex-direction: column;
+  justify-content: space-around;
+  background-color: #FFFCDD;
+  padding: 20px 0px;
 }
 body footer a {
   margin: 0 auto;
   display: inline-block;
   font-size: 32px;
+  font-weight: bold;
   color: #394166;
   text-decoration: none;
 }
