@@ -1,0 +1,39 @@
+@use "variables" as *;
+@use "layout" as *;
+
+body {
+	padding: 40px 30px;
+	color: $color-primary;
+
+	header {
+
+		.logo {
+			width: 8em;
+		}
+
+		.title {
+			font-size: 90px;
+			font-weight: bold;
+			margin-left: 15px;
+		}
+
+		.login {
+			font-size: 30px;
+			font-weight: bold;
+		}
+	}
+
+	main {
+		justify-items: center;
+		display: flex;
+		flex-direction: column;
+		* {
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.color-secondary {
+			color: $color-secondary;
+		}
+	}
+}

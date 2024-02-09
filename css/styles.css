@@ -1,3 +1,54 @@
+header {
+  display: flex;
+  align-items: center;
+}
+header .title {
+  margin-right: auto;
+}
 
+main .usp div {
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+}
+main .usp :nth-child(2n) {
+  flex-direction: row-reverse;
+}
+main .usp * {
+  display: inline;
+  display: flex;
+}
+main .usp img {
+  width: 230px;
+}
+
+body {
+  padding: 40px 30px;
+  color: #394166;
+}
+body header .logo {
+  width: 8em;
+}
+body header .title {
+  font-size: 90px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+body header .login {
+  font-size: 30px;
+  font-weight: bold;
+}
+body main {
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+}
+body main * {
+  margin: 0 auto;
+  text-align: center;
+}
+body main .color-secondary {
+  color: #1AB9F1;
+}
 
 /*# sourceMappingURL=styles.css.map */
