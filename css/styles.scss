@@ -1,5 +1,6 @@
 @use "variables" as *;
 @use "layout" as *;
+@use "components" as *;
 
 body {
 	padding: 40px 30px;
@@ -22,7 +23,6 @@ body {
 	}
 
 	header {
-
 		.logo {
 			width: 8em;
 		}
@@ -51,6 +51,18 @@ body {
 
 		.color-secondary {
 			color: $color-secondary;
+		}
+	}
+
+	footer {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+
+		a {
+		margin: 0 auto;
+			display:inline-block;
+			font-size: $text-size-md;
 		}
 	}
 }

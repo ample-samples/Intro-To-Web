@@ -25,6 +25,14 @@ main .usp img {
   width: 230px;
 }
 
+.button-1 {
+  background-color: #394166;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 body {
   padding: 40px 30px;
   color: #394166;
@@ -64,6 +72,16 @@ body main * {
 }
 body main .color-secondary {
   color: #1AB9F1;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body footer a {
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 35px;
 }
 
 /*# sourceMappingURL=styles.css.map */
