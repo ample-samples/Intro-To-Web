@@ -6,6 +6,9 @@ header .title {
   margin-right: auto;
 }
 
+main .device-mockup {
+  width: 70%;
+}
 main .usp div {
   display: flex;
   align-items: center;
@@ -25,6 +28,18 @@ main .usp img {
 body {
   padding: 40px 30px;
   color: #394166;
+}
+body .text-xl {
+  font-size: 60px;
+}
+body .text-lg {
+  font-size: 40px;
+}
+body .text-md {
+  font-size: 35px;
+}
+body .text-sm {
+  font-size: 28px;
 }
 body header .logo {
   width: 8em;

@@ -5,6 +5,22 @@ body {
 	padding: 40px 30px;
 	color: $color-primary;
 
+	.text-xl {
+		font-size: $text-size-xl;
+	}
+
+	.text-lg {
+		font-size: $text-size-lg;
+	}
+
+	.text-md {
+		font-size: $text-size-md;
+	}
+
+	.text-sm {
+		font-size: $text-size-sm;
+	}
+
 	header {
 
 		.logo {
@@ -27,6 +43,7 @@ body {
 		justify-items: center;
 		display: flex;
 		flex-direction: column;
+
 		* {
 			margin: 0 auto;
 			text-align: center;
