@@ -38,6 +38,7 @@ main .usp img {
   background-color: #394166;
   color: white;
   font-weight: bold;
+  border: none;
   width: 60%;
   padding: 20px 20px;
   border-radius: 5px;
