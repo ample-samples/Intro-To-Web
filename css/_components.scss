@@ -3,7 +3,18 @@
 .button-1 {
 	background-color: $color-primary;
 	color: white;
-	padding: 10px 20px;
+	font-weight: bold;
+	width: 60%;
+	padding: 20px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.button-2 {
+	background-color: white;
+	color: $color-primary;
+	padding: 20px 40px;
+	border: 2px solid $color-primary;
 	border-radius: 5px;
 	text-decoration: none;
 }

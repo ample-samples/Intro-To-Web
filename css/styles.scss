@@ -45,7 +45,8 @@ body {
 		flex-direction: column;
 
 		* {
-			margin: 0 auto;
+			margin-left: auto;
+			margin-right: auto;
 			text-align: center;
 		}
 
@@ -60,9 +61,19 @@ body {
 		flex-direction: column;
 
 		a {
-		margin: 0 auto;
-			display:inline-block;
+			margin: 0 auto;
+			display: inline-block;
 			font-size: $text-size-md;
+			color: $color-primary;
+			text-decoration: none;
+
+			:link {
+				color: $color-primary;
+			}
+
+			:visited {
+				color: $color-primary;
+			}
 		}
 	}
 }
